@@ -1,0 +1,97 @@
+.skills{
+  overflow: hidden;
+  margin-top: 3rem;
+  margin-left: 14.5rem;
+  padding-bottom: 2rem;
+}
+.techstack{
+  margin-top: 3rem;
+}
+.techstack hr{
+  color: #023331;
+  width: 22rem;
+  margin: 1rem auto 2rem;
+}
+.techstack p{
+  font-family: cursive;
+}
+.techstack h2{
+  font-weight: bold;
+  color: #034441;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.skills .row .tech-icon{
+  font-size: 2.5rem;
+  margin-right: 1.5rem;
+  
+}
+
+.skills .row .card{
+  min-width: 13rem;
+  cursor: pointer;
+  margin: 1rem !important;
+  border-radius: 20px;
+}
+.skills .row .card:hover{
+  background-color: #08625d;
+  color: white;
+  transition: 1s;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.skills .row .card .card-body{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+
+/* ***********Dark Mode********** */
+
+#dark .skills{
+  background-color: rgb(122, 164, 142);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+/* ==============Media Queries================== */
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .skills .row{
+    margin: 0rem !important;
+    padding: 0rem !important;
+  }
+  .row .card{
+    gap: 4rem !important;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+  .skills .row{
+    margin: 0rem !important;
+    padding: 0rem !important;
+    display: block !important;
+    padding-right: 1rem !important;
+  }
+  .row .card{
+    width: 25rem !important;
+  }
+}
+
+@media (max-width: 600px){
+  .skills{
+    margin: 0;
+    padding: 0.5rem;
+    margin-top: 4rem;
+  }
+  .skills hr{
+    width: 17rem;
+  }
+}
+
+
+

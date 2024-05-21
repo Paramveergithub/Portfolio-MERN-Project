@@ -1,0 +1,141 @@
+.contact{
+  overflow: hidden;
+  margin: 0rem auto 3rem 14.5rem;
+  display: flex;
+  border-radius: 25px;
+}
+.contact hr{
+  color: #023331;
+  width: 18rem;
+  margin: 1rem auto 4rem;
+}
+.contact h1{
+  font-weight: bold;
+  color: #034441;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact .Card0{
+  box-shadow: 0px 4px 8px 0px #757575;
+  min-height: 25rem;
+  padding-bottom: 2rem;
+}
+
+.contact .Card0 .row .Card1{
+  height: 25rem;
+}
+
+.contact .Card0 .row .Card1 .border-line{
+  height: 100%;
+  border-right: 1px solid #757575;
+}
+.contact .Card0 .row .Card1 .image{
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+
+.row .Card2{
+  /* background-color: rgb(25, 13, 190); */
+  margin: 0px 40px;
+  height: 100%;
+  width: 100%;
+  padding-right: 2rem;
+}
+.line{
+  height: 1px;
+  width: 35%;
+  background-color: #757575;
+  margin: 2rem auto 0rem;
+}
+
+.or {
+  display: flex;
+  width: 10%;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+
+input, textarea{
+  padding: 10px 12px;
+  border: 3px solid rgb(189, 179, 179);
+  width: 85% !important;
+  border-radius: 15px;
+  margin: 5px auto 0px !important;
+  color: #138781;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+input:focus, textarea:focus{
+  outline: 2px solid #2e6966;
+}
+
+.button{
+  background-color: #283618;
+  border: 1px solid rgb(49, 1, 1);
+  color: white;
+  width: 50%;
+  border-radius: 8px;
+  margin: 0rem auto 0.5rem;
+  font-size: 1.2rem ;
+  padding: .3rem;
+}
+
+.button:hover{
+  color: white;
+  border: 1px solid rgb(92, 18, 18) !important; 
+  background-color: #138781;
+  transition: .5s ease-in-out;
+}
+
+/* *************Dark Mode******************* */
+
+#dark .Card0{
+  background-color: rgb(122, 164, 142);
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#dark .Card0 .image{
+  border-radius: 30px !important;
+}
+
+#dark .Card0 h1{
+  color: #220000;
+}
+
+#dark .Card0 h3{
+  color: hwb(125 2% 93%);
+}
+
+
+
+/* =================Media queries */
+@media (max-width: 600px) {
+  .contact{
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+  }
+  .contact hr{
+    width: 12rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+  }
+  .contact .Card0 .row .Card1{
+    padding: .5rem;
+    border-left: 1px solid #9a8b8b;
+    /* border-right: 1px solid #000; */
+  }
+  .contact .Card2{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+      /* Dark mode  */
+#dark{
+  background-color: #b4ebb2;
+  color: rgb(37, 3, 3);
+}
+
+
+
+/* ++++++++++++media queries+++++++++++++ */
+@media (max-width: 600px) {
+  .footer{
+    margin: 0 !important;
+    margin-top: 4rem !important;
+    padding-bottom: .4rem !important;
+  }
+  .footer h4{
+    padding-top: 1rem !important;
+  }
+}
+
+
+
+
+

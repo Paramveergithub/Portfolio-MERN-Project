@@ -1,0 +1,40 @@
+.navbar-profile-pic{
+  /* border-radius: 50%; */
+  /* border: 2px solid red; */
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.navbar-profile-pic img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.nav-item{
+  color: rgb(255, 251, 240);
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.nav-link{
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+.nav-link svg{
+  margin:0 1rem;
+  font-size: 2rem;
+}
+.nav-link:hover{
+  color: #f29f67;
+}
+
+.nav-link .active{
+  color: #f29f67;
+  border-left: 7px solid #f29f67;
+  padding-left: 12px;
+  text-decoration: none;
+}
+
