@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7445ff55.css",
-    "main.js": "/static/js/main.edb80aab.js",
+    "main.js": "/static/js/main.e85ba873.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/College_ID_Card.pdf": "/static/media/College_ID_Card.6229ccf7c88b267036c4.pdf",
     "static/media/Certificate.pdf": "/static/media/Certificate.ec49254c101ed95131aa.pdf",
-    "static/media/Paramveer_Resume.pdf": "/static/media/Paramveer_Resume.7f64640a5eb487ddb86c.pdf",
+    "static/media/Paramveer_Resume.pdf": "/static/media/Paramveer_Resume.1b8ae31076732add661b.pdf",
     "static/media/ITI_certi.pdf": "/static/media/ITI_certi.eaaa03a60d6cdb431f8d.pdf",
     "index.html": "/index.html",
     "main.7445ff55.css.map": "/static/css/main.7445ff55.css.map",
-    "main.edb80aab.js.map": "/static/js/main.edb80aab.js.map",
+    "main.e85ba873.js.map": "/static/js/main.e85ba873.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7445ff55.css",
-    "static/js/main.edb80aab.js"
+    "static/js/main.e85ba873.js"
   ]
 }
