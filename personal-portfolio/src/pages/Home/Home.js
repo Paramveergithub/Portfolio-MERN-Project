@@ -5,7 +5,7 @@ import { IoSunnySharp } from "react-icons/io5";
 
 import "./home.css";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/Resume_Paramveer (1).pdf";
+import Resume from "../../assets/docs/Paramveer_Resume.pdf";
 
 import Fade from "react-reveal/Fade";
 const Home = () => {
@@ -53,7 +53,7 @@ const Home = () => {
               <a
                 className="btn btn-cv"
                 href={Resume}
-                download="Resume_Paramveer"
+                download="Paramveer_Resume"
               >
                 My Resume
               </a>

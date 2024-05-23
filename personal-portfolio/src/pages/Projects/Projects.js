@@ -71,7 +71,7 @@ const Projects = () => {
                 </div>
                 <div className="card-title text-center">
                   <a
-                    href="https://frontend-i7wb7dwfm-paramveergithubs-projects.vercel.app" target="_blank" rel="noreferrer" 
+                    href="https://frontend-eta-silk.vercel.app/" target="_blank" rel="noreferrer" 
                     className="btn btn-success"
                   >
                     View Website
