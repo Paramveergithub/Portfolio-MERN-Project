@@ -10,7 +10,7 @@ dotenv.config();
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
   port: process.env.SMTP_PORT,
-  secure: false,  // true for 465, false for other ports
+  secure: false,
   auth: {
     user: process.env.SMTP_MAIL,
     pass: process.env.SMTP_PASSWORD,
@@ -46,8 +46,12 @@ const sendEmail = expressAsyncHandler(async(req, res) => {
     transporter.sendMail(mailOption, function(err, info){
       if(err){
         console.log(err);
-      }else{
         return res.status(500).send({
+          success: false,
+          message : "Failed to send email"
+        })
+      }else{
+        return res.status(200).send({
           success: true,
           message : "Email sent successfully"
         })

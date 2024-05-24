@@ -24,6 +24,9 @@ app.use(express.json());
 // Serve static files from the React app
 app.use(express.static(Path.join(__dirname, './personal-portfolio/build')));
 
+app.use(cors({
+  origin: "http://localhost:3000"
+}))
 // signup and login routes
 app.use('/email', emailRoutes);
 

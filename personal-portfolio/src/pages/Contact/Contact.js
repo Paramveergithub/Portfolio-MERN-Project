@@ -40,7 +40,7 @@ const Contact = () => {
       });
 
       //handling errors
-      if (resp) {
+      if (resp.ok) {
         toast.success("Your Message is Sent Successfully!");
         setName("");
         setEmail("");
