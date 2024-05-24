@@ -10,11 +10,11 @@ const app = express();
 dotenv.config();
 
 
-const corsOptions = {
-  origin: "*",
-  credentials: true,
-  optionsSuccessStatus: 200,
-};
+// const corsOptions = {
+//   origin: "*",
+//   credentials: true,
+//   optionsSuccessStatus: 200,
+// };
 
 
 //middlewares
@@ -24,15 +24,16 @@ app.use(express.json());
 // Serve static files from the React app
 app.use(express.static(Path.join(__dirname, './personal-portfolio/build')));
 
-app.use(cors({
-  origin: "http://localhost:3000"
-}))
+// app.use(cors({
+//   origin: "http://localhost:3000"
+// }))
 // signup and login routes
-app.use('/email', emailRoutes);
+// app.use('/email', emailRoutes);
+app.use("/api/v1/portfolio", require("./routes/emailRoutes"));
 
 
 app.get("*", (req, res)=>{
-  res.sendFile(Path.join(__dirname, './personal-portfolio/build', 'index.html'))
+  res.sendFile(Path.join(__dirname, './personal-portfolio/build/index.html'))
 });
 
 // port 

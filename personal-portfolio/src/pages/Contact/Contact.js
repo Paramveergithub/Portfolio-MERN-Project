@@ -13,7 +13,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [msg, setMsg] = useState("");
-  const baseUrl = "http://localhost:8080";
+  // const baseUrl = "http://localhost:8080";
 
   //handle submit btn
   const sendEmail = async (e) => {
@@ -30,7 +30,7 @@ const Contact = () => {
         return toast.error("Please fill all fields.");
       }
 
-      const resp = await fetch(`${baseUrl}/email/sendEmail`, {
+      const resp = await fetch("/api/v1/portfolio/sendEmail", {
         method: "POST",
         body: JSON.stringify(dataSend),
         headers: {

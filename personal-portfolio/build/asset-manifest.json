@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7445ff55.css",
-    "main.js": "/static/js/main.aadaaa7f.js",
+    "main.js": "/static/js/main.e96973de.js",
     "static/js/453.298f5782.chunk.js": "/static/js/453.298f5782.chunk.js",
     "static/media/College_ID_Card.pdf": "/static/media/College_ID_Card.6229ccf7c88b267036c4.pdf",
     "static/media/Certificate.pdf": "/static/media/Certificate.ec49254c101ed95131aa.pdf",
@@ -9,11 +9,11 @@
     "static/media/ITI_certi.pdf": "/static/media/ITI_certi.eaaa03a60d6cdb431f8d.pdf",
     "index.html": "/index.html",
     "main.7445ff55.css.map": "/static/css/main.7445ff55.css.map",
-    "main.aadaaa7f.js.map": "/static/js/main.aadaaa7f.js.map",
+    "main.e96973de.js.map": "/static/js/main.e96973de.js.map",
     "453.298f5782.chunk.js.map": "/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7445ff55.css",
-    "static/js/main.aadaaa7f.js"
+    "static/js/main.e96973de.js"
   ]
 }
